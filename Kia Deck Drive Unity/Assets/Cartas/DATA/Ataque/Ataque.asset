@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 778b6f1f3ca2877459d81187b9056a49, type: 3}
+  m_Name: Ataque
+  m_EditorClassIdentifier: 
+  CartaNombre: Ataque
+  tipocarta: 02000000
+  salud: 0
+  damageMin: 1
+  damageMax: 2
+  escudo: 0
+  Costo: 1
+  descripcion: Esta carta hace 2 de dano
+  imagen: {fileID: 21300000, guid: c1073028faea5c14192b7ac7831dd8fd, type: 3}
+  damageType: 00000000

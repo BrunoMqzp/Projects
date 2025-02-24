@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 778b6f1f3ca2877459d81187b9056a49, type: 3}
+  m_Name: Coaseguro
+  m_EditorClassIdentifier: 
+  CartaNombre: Coaseguro
+  tipocarta: 01000000
+  salud: 0
+  damageMin: 0
+  damageMax: 0
+  escudo: 2
+  Costo: 1
+  descripcion: Meltife te da el coaseguro del 10% para enfermedades con tope de 30,000
+  imagen: {fileID: 21300000, guid: c92f79463d26ed94281bd36620a74014, type: 3}
+  damageType: 

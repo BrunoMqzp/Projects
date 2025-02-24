@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+<head>
+    <title>{{ filename }}</title>
+    <style>
+        pre {
+            background-color: #f4f4f4;
+            padding: 15px;
+            border: 1px solid #ddd;
+            overflow-x: auto;
+        }
+
+        .special { color: rgb(255, 0, 195); }
+        .operation { color: rgb(176, 34, 176); }
+        .string { color: rgb(98, 46, 18); }
+        .number { color: blue; }
+        .keyword { color: rgb(255, 8, 8); }
+        .data { color: rgb(23, 92, 9); }
+        .words { color: rgb(30, 158, 228); }
+        .error { color: rgb(110, 41, 199); font-weight: bold; }
+
+        .legend-box {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            width: 200px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            border-radius: 3px;
+            margin-right: 10px;
+        }
+
+        .special-box {
+            background-color: rgb(255, 0, 195);
+        }
+
+        .operation-box {
+            background-color: purple;
+        }
+
+        .string-box {
+            background-color: rgb(98, 46, 18);
+        }
+
+        .number-box {
+            background-color: blue;
+        }
+
+        .keyword-box {
+            background-color: rgb(255, 8, 8);
+        }
+
+        .data-box {
+            background-color: rgb(23, 92, 9);
+        }
+
+        .words-box {
+            background-color: rgb(30, 158, 228);
+        }
+
+        .error-box {
+            background-color: rgb(110, 41, 199);
+        }
+    </style>
+
+    </style>
+</head>
+<body>
+    <h1>Contenido de {{ filename }}</h1>
+    <pre>{{ content|safe }}</pre>
+    <br>
+    <form method="GET" action="/show_file">
+        <select name="filename">
+            <option value="">--Choose a file--</option>
+            {% for file in files %}
+            <option value="{{ file }}" {% if file==filename %}selected{% endif %}>{{ file }}</option>
+            {% endfor %}
+        </select>
+        <button type="submit">View File</button>
+    </form>
+    <button onclick="window.location.href='/process_all'">Process All Files</button>
+    <div>
+        <h2>Legend</h2>
+        <div class="legend-box">
+            <div class="legend-item">
+                <div class="legend-color special-box"></div>
+                <span>Especial: Tokens Especiales (eg. (), [], :)</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color operation-box"></div>
+                <span>Operacion: Operadores Clasicos (e.g., +, -, *, /)</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color string-box"></div>
+                <span>String: Literales en cadena en el codigo</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color number-box"></div>
+                <span>Numero: Valores numericos</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color keyword-box"></div>
+                <span>Palabras Clave: Palabras reservadas en el lenguaje</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color data-box"></div>
+                <span>Tipo de Datos: Palabras reservadas para el tipo de datos</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color words-box"></div>
+                <span>Palabras: Tokens no clasificados en las categorias anteriores</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color error-box"></div>
+                <span>Error: Errores de Sintaxis</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

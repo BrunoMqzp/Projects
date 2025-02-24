@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 778b6f1f3ca2877459d81187b9056a49, type: 3}
+  m_Name: Salario
+  m_EditorClassIdentifier: 
+  CartaNombre: Salario
+  tipocarta: 02000000
+  salud: 0
+  damageMin: 1
+  damageMax: 3
+  escudo: 0
+  Costo: 2
+  descripcion: Salario de $24,600
+  imagen: {fileID: 21300000, guid: 96b67e8528966364dba4948c63d4921b, type: 3}
+  damageType: 
