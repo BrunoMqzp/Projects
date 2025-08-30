@@ -1,0 +1,60 @@
+{
+    "features": [
+        {
+            "feature_type": "occupant",
+            "geometry": null,
+            "id": "5ac4bf40-2dbf-4bdb-9c39-495c442b7e38",
+            "properties": {
+                "address_id": null,
+                "alt_name": null,
+                "anchor_id": "f353425b-472c-4b80-aefb-98e03a3d3f11",
+                "category": "shopping",
+                "display_point": {
+                    "coordinates": [
+                        -100.2830596,
+                        25.67605
+                      ],
+                    "type": "Point"
+                },
+                "hours": "Su-Sa 09:00-17:00",
+                "name": {
+                    "en": "Ticket Shop"
+                },
+                "phone": "+14087924511",
+                "restriction": null,
+                "website": null,
+                "correlation_id": null
+            },
+            "type": "Feature"
+        },
+        {
+            "feature_type": "occupant",
+            "geometry": null,
+            "id": "5ac4bf40-2dbf-4bdb-9c39-495c442b7e39",
+            "properties": {
+                "address_id": null,
+                "alt_name": null,
+                "anchor_id": "f353425b-472c-4b80-aefb-98e03a3d3f12",
+                "category": "shopping",
+                "display_point": {
+                    "coordinates": [
+                        -100.283117,
+                        25.676165
+                      ],
+                    "type": "Point"
+                },
+                "hours": "Su-Sa 09:00-17:00",
+                "name": {
+                    "en": "Museum Shop"
+                },
+                "phone": "+14087924511",
+                "restriction": null,
+                "website": null,
+                "correlation_id": null
+            },
+            "type": "Feature"
+        }
+    ],
+    "name": "Occupant",
+    "type": "FeatureCollection"
+}

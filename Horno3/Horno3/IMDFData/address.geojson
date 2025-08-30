@@ -1,0 +1,21 @@
+{
+    "features": [
+        {
+            "feature_type": "address",
+            "geometry": null,
+            "id": "e105efb7-b0d1-4144-8b8e-72eadf95724f",
+            "properties": {
+                "address": "Parque Fundidora, Av Fundidora",
+                "country": "MX",
+                "locality": "Monterrey",
+                "postal_code": "64010",
+                "postal_code_ext": null,
+                "province": "Nuevo Leon",
+                "unit": null
+            },
+            "type": "Feature"
+        }
+    ],
+    "name": "address",
+    "type": "FeatureCollection"
+}

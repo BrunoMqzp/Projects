@@ -1,0 +1,12 @@
+[
+    {
+        "imagen": "ciencias",
+        "titulo": "Evento cientifico",
+        "descripcion": "Exposicion temporal para los fans de ciencia!"
+    },
+    {
+        "imagen": "talleres",
+        "titulo": "Talleres para todos",
+        "descripcion": "Un espacio dedicado a la ciencia y educacion."
+    }
+]

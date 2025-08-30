@@ -1,0 +1,27 @@
+[
+    {
+        "imagen": "museo",
+        "titulo": "Historia de Monterrey",
+        "descripcion": "Un museo impresionante con elementos historicos y fragmentos de la construccion del Horno."
+    },
+    {
+        "imagen": "tierra",
+        "titulo": "Planeta Tierra",
+        "descripcion": "Un espacio dedicado al arte contemporáneo y exposiciones innovadoras."
+    },
+    {
+        "imagen": "mirador",
+        "titulo": "Paseo por la Cima",
+        "descripcion": "Un mirador fascinante. Con la vista a toda la ciudad de Monterrey."
+    },
+    {
+        "imagen": "showHorno",
+        "titulo": "Show del Horno",
+        "descripcion": "Mediante vapor, humo, fuego real y chispas, te brindaremos la oportunidad de vivir una experiencia unica e inolvidable."
+    },
+    {
+        "imagen": "ciencias2",
+        "titulo": "Galeria del acero",
+        "descripcion": "Descubre las posibilidades e historia del acero en la ciudad de Monterrey."
+    }
+]

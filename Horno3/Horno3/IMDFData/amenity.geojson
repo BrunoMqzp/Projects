@@ -1,0 +1,282 @@
+{
+  "type": "FeatureCollection",
+  "name": "amenity",
+  "features": [
+    {
+      "type": "Feature",
+      "feature_type": "amenity",
+      "id": "6fa7e68e-4d97-4ec8-996a-2afe8bb3e7df",
+      "properties": {
+        "accessibility": null,
+        "address_id": "e105efb7-b0d1-4144-8b8e-72eadf95724f",
+        "alt_name": null,
+        "category": "Hall",
+        "correlation_id": null,
+        "hours": null,
+        "name": {
+          "en": "Lobby"
+        },
+        "phone": null,
+        "unit_ids": [
+          "6382938a-b59b-4631-b2ea-54ddd13562a3"
+        ],
+        "website": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.282871,
+          25.676208
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "feature_type": "amenity",
+      "id": "53b07635-fcbf-4169-81c1-be200c396044",
+      "properties": {
+        "accessibility": null,
+        "address_id": "e105efb7-b0d1-4144-8b8e-72eadf95724f",
+        "alt_name": null,
+        "category": "walkway",
+        "correlation_id": null,
+        "hours": null,
+        "name": {
+          "en": "Hall"
+        },
+        "phone": null,
+        "unit_ids": [
+          "4bc098b9-8584-4d29-ab56-d78852ccfb3f"
+        ],
+        "website": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.283213,
+          25.676058
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "feature_type": "amenity",
+      "id": "7c347d3b-0095-4e3b-8035-46577eeffea4",
+      "properties": {
+        "accessibility": null,
+        "address_id": "e105efb7-b0d1-4144-8b8e-72eadf95724f",
+        "alt_name": null,
+        "category": "Shopping",
+        "correlation_id": null,
+        "hours": null,
+        "name": {
+          "en": "Ticket Shop"
+        },
+        "phone": null,
+        "unit_ids": [
+          "4e930925-3206-44d6-bf49-fc550296f8e4"
+        ],
+        "website": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.283057,
+          25.67603
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "feature_type": "amenity",
+      "id": "bcb982c3-c94b-4c5c-8ddb-a553ec0e9088",
+      "properties": {
+        "accessibility": null,
+        "address_id": "e105efb7-b0d1-4144-8b8e-72eadf95724f",
+        "alt_name": null,
+        "category": "restroom",
+        "correlation_id": null,
+        "hours": null,
+        "name": null,
+        "phone": null,
+        "unit_ids": [
+          "ad360167-3bf2-4273-842c-b7ca0ec5535e"
+        ],
+        "website": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.28312,
+          25.676029
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "feature_type": "amenity",
+      "id": "641d7a58-cb32-42df-849e-19397828fb1a",
+      "properties": {
+        "accessibility": null,
+        "address_id": "e105efb7-b0d1-4144-8b8e-72eadf95724f",
+        "alt_name": null,
+        "category": "room",
+        "correlation_id": null,
+        "hours": null,
+        "name": {
+          "en": "Innovation Laboratory"
+        },
+        "phone": null,
+        "unit_ids": [
+          "388903cd-d5da-430c-8069-f5911debb6a7"
+        ],
+        "website": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.283171,
+          25.676024
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "feature_type": "amenity",
+      "id": "8acd6573-b91a-44e0-9365-72ed6c8c941f",
+      "properties": {
+        "accessibility": null,
+        "address_id": "e105efb7-b0d1-4144-8b8e-72eadf95724f",
+        "alt_name": null,
+        "category": "exhibit",
+        "correlation_id": null,
+        "hours": null,
+        "name": {
+          "en": "Iron Gallery"
+        },
+        "phone": null,
+        "unit_ids": [
+          "ef01472e-429c-4ddf-a024-2784e0bcc92f"
+        ],
+        "website": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.283189,
+          25.676341
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "feature_type": "amenity",
+      "id": "aa51c09a-84e1-4bce-afaf-ac02d3997d8b",
+      "properties": {
+        "accessibility": null,
+        "address_id": "e105efb7-b0d1-4144-8b8e-72eadf95724f",
+        "alt_name": null,
+        "category": "exhibit",
+        "correlation_id": null,
+        "hours": null,
+        "name": {
+          "en": "History Gallery"
+        },
+        "phone": null,
+        "unit_ids": [
+          "de2c1f28-217d-4b71-99b6-9270383f0055"
+        ],
+        "website": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.28294,
+          25.676516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "feature_type": "amenity",
+      "id": "b2c4c909-1cf8-427a-bda6-0eebea2ed5b3",
+      "properties": {
+        "accessibility": null,
+        "address_id": "e105efb7-b0d1-4144-8b8e-72eadf95724f",
+        "alt_name": null,
+        "category": "restroom",
+        "correlation_id": null,
+        "hours": null,
+        "name": null,
+        "phone": null,
+        "unit_ids": [
+          "c61efb19-969f-443e-b141-cc00780bc93b"
+        ],
+        "website": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.283178,
+          25.676499
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "feature_type": "amenity",
+      "id": "f08ed00f-0f17-4596-817c-e77cd02f0f1d",
+      "properties": {
+        "accessibility": null,
+        "address_id": "e105efb7-b0d1-4144-8b8e-72eadf95724f",
+        "alt_name": null,
+        "category": "Shopping",
+        "correlation_id": null,
+        "hours": null,
+        "name": {
+          "en": "Shop"
+        },
+        "phone": null,
+        "unit_ids": [
+          "27fda7b2-612a-4412-8ec7-91bdf52b5884"
+        ],
+        "website": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.283117,
+          25.676165
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "feature_type": "amenity",
+      "id": "734946bc-80b6-443e-9c00-39d2b42ad667",
+      "properties": {
+        "accessibility": null,
+        "address_id": "e105efb7-b0d1-4144-8b8e-72eadf95724f",
+        "alt_name": null,
+        "category": "room",
+        "correlation_id": null,
+        "hours": null,
+        "name": {
+          "en": "Wardrobe"
+        },
+        "phone": null,
+        "unit_ids": [
+          "a2bf457a-5379-4d46-836f-1ff0f0e7074e"
+        ],
+        "website": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.28324,
+          25.676018
+        ]
+      }
+    }
+  ]
+}
